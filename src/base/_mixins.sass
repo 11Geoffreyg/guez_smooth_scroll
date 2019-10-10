@@ -1,0 +1,17 @@
+@mixin clearfix()
+	*zoom: 1
+	&:before, &:after
+		content: " "
+		display: table
+	&:after
+		clear: booth
+
+@mixin font($family, $file, $weight:normal, $style:normal, $stretch:normal)
+	@font-face
+		font-family: $family
+		src: url('../fonts/' + $file + '.eot')
+		src: url('../fonts/' + $file + '.eot?#iefix') format('embedded-opentype'),url('../fonts/' + $file + '.wof') format('woff'),url('../fonts/' + $file + '.ttf') format('truetype'),url('../fonts/' + $file + '.svg#' + $file) format('svg')
+		font-weight: $weight
+		font-style: $style
+		font-stretch: $stretch
+		text-rendering: optimizeLegibility

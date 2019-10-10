@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1.3;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+
+nav {
+  background-color: #fff;
+  padding: 8px 16px;
+  opacity: 0.75;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  justify-content: space-between;
+}
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-family: "Raleway", Arial, sans-serif;
+  padding: 8px 50px;
+}
+nav a:hover {
+  background-color: #eee;
+}
+
+footer {
+  background-color: black;
+  padding: 32px 0px;
+}
+footer p, footer a {
+  color: white;
+  text-align: center;
+}
+
+.dark {
+  background-color: black;
+  padding: 12px 24px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-family: "Raleway", Arial, sans-serif;
+  margin: 40px auto 0px auto;
+  display: block;
+}
+.dark:hover {
+  background-color: white;
+}
+
+.red {
+  background-color: #f44336;
+  padding: 20px 60px;
+  border-radius: 4px;
+  border: none;
+  font-size: 30px;
+  font-family: "Raleway", Arial, sans-serif;
+  margin: 40px auto 0px auto;
+  display: block;
+  opacity: 0.6;
+}
+.red:hover {
+  color: black;
+  background-color: white;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+button a:hover {
+  color: black;
+}
+
+img {
+  max-width: 70%;
+  margin: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f0dede;
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  background: url("img/wedding_couple.jpg") no-repeat center;
+  filter: grayscale(50%);
+}
+
+.background2 {
+  min-width: 100%;
+  height: 100vh;
+  background: url("img/flowers.jpg") no-repeat center;
+}
+
+.par {
+  position: relative;
+}
+.par .annonce, .par .annonce2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: #fff;
+}
+
+.haut {
+  text-align: center;
+}
+
+.haut1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.haut2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.haut3 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.annonce2 {
+  font-size: 4em;
+  text-align: center;
+}
+.annonce2 span {
+  font-size: 30px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+section {
+  padding: 32px 16px;
+}
+
+h3 {
+  font-size: 36px;
+  color: #757575;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.kiss {
+  margin: 64px 0px;
+}
+.kiss img {
+  filter: grayscale(50%);
+}
+
+.youallknow {
+  width: 75%;
+  text-align: justify;
+  margin: auto;
+}
+
+.test {
+  display: flex;
+  justify-content: space-around;
+}
+
+.division {
+  display: block;
+  width: 49, 999%;
+  float: left;
+  text-align: center;
+  margin: 20px;
+}
+.division h4 {
+  font-size: 2em;
+  margin: 10px 0;
+  font-weight: 400;
+}
+.division p {
+  line-height: 3;
+}
+
+.RSVP {
+  background-color: #ffdddd;
+  padding: 64px 16px;
+}
+.RSVP h5, .RSVP p {
+  text-align: center;
+}
+.RSVP h5 {
+  font-size: 36px;
+  font-weight: 400;
+  margin: 10px 0px;
+}
+.RSVP p {
+  font-size: 18px;
+}
+
+.header {
+  padding-top: 0px;
+}
+
+/*# sourceMappingURL=main.css.map */
